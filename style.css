@@ -1,0 +1,58 @@
+.pfp {
+    width: 70%;
+}
+
+/* The Name */
+
+    .increaseName {
+        font-size: 4.5rem;
+        transition: font-size 0.1s ease-in;
+    }
+
+    .decreaseName {
+        font-size: 4rem;
+        transition: font-size 0.1s ease-out;
+    }
+
+/* The Titles */
+
+    .increaseTitle {
+        font-size: 1.2rem;
+        transition: font-size 0.1s ease-in;
+    }
+
+    .decreaseTitle {
+        font-size: 1rem;
+        transition: font-size 0.1s ease-out;
+    }
+
+/* List Elements */
+    #firstList:hover {
+        background-color: #DFCCFC;
+        transition: background-color 0.3s ease-in;
+    }
+
+    #firstList:not(:hover) {
+        background-color: default;
+        transition: background-color 0.3s ease-in;
+    }
+
+    #secondList:hover {
+        background-color: #fcccdf;
+        transition: background-color 0.3s ease-in;
+    }
+
+    #secondList:not(:hover) {
+        background-color: default;
+        transition: background-color 0.3s ease-in;
+    }
+
+    #thirdList:hover {
+        background-color: #ccfcde;
+        transition: background-color 0.3s ease-in;
+    }
+
+    #thirdList:not(:hover) {
+        background-color: default;
+        transition: background-color 0.3s ease-in;
+    }
